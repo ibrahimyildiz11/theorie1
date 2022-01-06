@@ -16,4 +16,5 @@ public class Artikel {
         return prijsExclusiefBtw.multiply(BigDecimal.ONE.add(btwPercentage
                 .divide(BigDecimal.valueOf(100), 2, RoundingMode.HALF_UP)));
     }
+
 }
